@@ -1,0 +1,65 @@
+
+
+.yttre-flex-container{
+    display: flex; /* gör yttre-flex-container till en flexbox-container*/
+    justify-content: center; /*Eftersom diven låda är placerat inom yttre-flex-container så flyttas den till mitten av skärmen med den här koden.*/
+}
+
+.ul-flex-container{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+
+}
+#li{
+    border: solid 2px rgb(116, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color:rgb(172, 0, 0);
+    background-color:aliceblue;
+}
+
+#li a{
+    text-decoration: none;
+    color:black;
+}
+
+#li a:hover{
+    background-color: #c76767;
+}
+
+.SvenskaBody{
+    background-image: url('svenskaBakgrund.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.engelskaBody{
+    background-image: url('engelskaBakgrund.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.SOBody{
+    background-image: url('Prag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 480px)
+{
+
+}
+
+@media screen and (orientation: landscape)
+{
+
+}
